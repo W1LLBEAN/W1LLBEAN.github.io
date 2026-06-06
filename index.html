@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Bean Dong personal website: factory test software, StationSW, SFD-Diags, Atlas2, resume, work timeline, and personal archive."
+    />
+    <title>Bean Dong | Factory Test Software Engineer</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="home">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Bean Dong home">
+        <img class="brand-avatar" src="assets/avatar.png" alt="" aria-hidden="true" />
+        <span>Bean Dong</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="work.html" data-nav="work">Work</a>
+        <a href="resume.html" data-nav="resume">Resume</a>
+        <a href="places.html" data-nav="places">Places</a>
+        <a href="life.html" data-nav="life">Life</a>
+        <a href="contact.html" data-nav="contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero apple-hero">
+        <div class="hero-copy">
+          <p class="eyebrow" data-bind="profile.kicker"></p>
+          <h1 class="hero-statement">Engineering lives behind the product.</h1>
+          <div class="hero-story" id="hero-story"></div>
+          <div class="hero-actions">
+            <a class="button primary" href="work.html">View Work</a>
+            <a class="button secondary" href="resume.html">View Resume</a>
+            <a class="button text-button" href="contact.html">Contact Me</a>
+          </div>
+          <p class="hero-summary" data-bind="profile.summary"></p>
+        </div>
+        <div class="hero-tool-visual" aria-label="Tools and applications I use">
+          <div class="planet-system" aria-hidden="true">
+            <div class="planet-aura"></div>
+            <div class="orbit-band orbit-band-back">
+              <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+            <div class="planet-sphere">
+              <div class="planet-atmosphere"></div>
+              <div class="planet-surface"></div>
+              <div class="planet-haze"></div>
+            </div>
+            <div class="orbit-band orbit-band-front">
+              <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
+            </div>
+          </div>
+          <div class="tool-current" id="tool-shelf"></div>
+          <div class="visual-fog" aria-hidden="true"></div>
+        </div>
+        <div class="tag-cloud hero-tag-cloud" id="hero-tags"></div>
+      </section>
+
+      <section class="section split-section">
+        <div>
+          <p class="eyebrow">Career Story</p>
+          <h2>From app development to factory test software ownership.</h2>
+        </div>
+        <div class="prose large" data-bind="career.short"></div>
+      </section>
+
+      <section class="section soft-section">
+        <div class="section-heading compact">
+          <p class="eyebrow">Career Signal</p>
+          <h2>Built through product coverage, platform migration, and factory delivery.</h2>
+        </div>
+        <div class="metric-grid" id="metrics"></div>
+      </section>
+
+      <section class="section">
+        <div class="section-heading compact">
+          <p class="eyebrow">Featured Work</p>
+          <h2>Latest project ownership and the turning points behind it.</h2>
+        </div>
+        <div class="preview-grid" id="home-work-preview"></div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Bean Dong Personal Website</span>
+      <span>GitHub Pages ready.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

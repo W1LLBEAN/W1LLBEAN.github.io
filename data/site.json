@@ -1,0 +1,428 @@
+{
+  "profile": {
+    "name": "Bean Dong",
+    "kicker": "Factory Test Software / StationSW / SFD / Atlas2 / Team Delivery.",
+    "title": "Consumer products reveal the result & Manufacturing and R&D hide the reasons.\n\nBehind every polished product are not only brand stories and symbolic value, but also engineering effort, efficiency pressure, human cost, and countless negotiations.\n\nMy work is not always glamorous.\nIt lives in the muddiest part of production — where technology, process, people, and cost meet.\nAnd it is there that I learned to see the real greatness of a product from the inside out.",
+    "summary": "I started as an app developer and grew into factory test software ownership, building station workflows, supporting production readiness, debugging complex issues, and helping teams deliver stable test systems across multiple Apple CM projects.",
+    "tags": [
+      "9+ Years CM Experience",
+      "10+ Apple Project Experience",
+      "StationSW",
+      "SFD-Diags",
+      "SFD-SPL",
+      "QT Development",
+      "Atlas1 to Atlas2",
+      "Atlas2-Matchbox",
+      "Atlas2-Schooner",
+      "Lua / Shell / Python / Objective-C",
+      "Production Readiness",
+      "Team Mentoring"
+    ],
+    "tools": [
+      {
+        "name": "Atlas",
+        "image": "assets/tools/atlas_logo.avif"
+      },
+      {
+        "name": "Terminal",
+        "image": "assets/tools/terminal-icns.avif"
+      },
+      {
+        "name": "Xcode",
+        "image": "assets/tools/xcode.avif"
+      },
+      {
+        "name": "Python",
+        "image": "assets/tools/python.avif"
+      },
+      {
+        "name": "Visual Studio Code",
+        "image": "assets/tools/VSCode.avif"
+      },
+      {
+        "name": "GitHub",
+        "image": "assets/tools/github.avif"
+      },
+      {
+        "name": "Codex",
+        "image": "assets/tools/codex.avif"
+      },
+      {
+        "name": "SourceTree",
+        "image": "assets/tools/sourcetree.avif"
+      },
+      {
+        "name": "Industry 4.0",
+        "image": "assets/tools/Industry4.0.avif"
+      },
+      {
+        "name": "Automation",
+        "image": "assets/tools/token.avif"
+      },
+      {
+        "name": "Command Line",
+        "image": "assets/tools/terminal-png.avif"
+      }
+    ],
+    "metrics": [
+      {
+        "value": "8+",
+        "title": "Years in factory test software",
+        "label": "NPI, dry run, build validation, issue debug, and mass-production support across hardware/software test workflows."
+      },
+      {
+        "value": "10+",
+        "title": "CM project experience",
+        "label": "Public product coverage includes iMac Pro, Intel MacBook Pro / Air programs, 15-inch MacBook Pro, Pro Display XDR, M-series MacBook Pro / Air programs, Apple TV programs, and current NPI work."
+      },
+      {
+        "value": "3",
+        "title": "Platform generations",
+        "label": "Hands-on experience across Atlas1, Atlas2-Matchbox, and Atlas2-Schooner migration, structure, compatibility, and station workflow work."
+      },
+      {
+        "value": "5+",
+        "title": "Engineering skill surfaces",
+        "label": "StationSW, QT development, SFD-Diags support, automation scripting, and production-readiness tooling."
+      },
+      {
+        "value": "4+",
+        "title": "Code and scripting languages",
+        "label": "Lua, Shell, Python, Objective-C, plus project-side QT / station software development experience."
+      },
+      {
+        "value": "4",
+        "title": "Delivery roles",
+        "label": "Developer, QT owner, CMSW / ShippingSetting owner, and SW tech leader supporting team-level delivery."
+      }
+    ]
+  },
+  "career": {
+    "short": "My career started in Hangzhou as an iOS app developer, where I helped build two applications from 0 to 1 and supported multiple App Store release iterations. I later joined QSMC and moved from pure software development into factory test software. The XDR Display Pro project became a major turning point: under high pressure and limited resources, I began to design test stations and OVL structure independently. After that, I supported multiple Mac projects, participated in Atlas1 to Atlas2 / Matchbox architecture transition, and started mentoring new engineers through QT development, dry run support, code review, and team delivery. At WT / Luxshare, I returned to Apple CM project work with broader StationSW responsibility, focusing on factory test software, automation tools, workflow optimization, production readiness, and team-level delivery."
+  },
+  "work": {
+    "overview": "My work sits between software development and real factory execution. I build and maintain station software, and lead the team in building and maintaining stable test workflows across NPI and mass-production phases. I also support dry runs, build validation, production issue debugging, and cross-functional coordination.",
+    "currentRole": "I lead StationSW work across SFD-Diags and SPL-related workstreams, covering bring-up, test flow development, production readiness, issue debugging, and cross-functional coordination across current and established product programs.",
+    "overlapNote": "Projects are not always linear. StationSW, SPL, and Diags responsibilities often continue across product programs, with production support, new-project bring-up, platform migration, and release readiness running in parallel.",
+    "currentPrograms": [
+      "Current NPI",
+      "AppleTV",
+      "MacBook",
+      "iMac",
+      "XDR"
+    ],
+    "capabilities": [
+      "StationSW",
+      "QT Development",
+      "Atlas1 to Atlas2",
+      "Schooner Structure",
+      "Matchbox",
+      "OVL Structure",
+      "SFD Support",
+      "Diags Support",
+      "ShippingSetting",
+      "SPL / Burn-in",
+      "Dry Run Support",
+      "Build Issue Debug",
+      "Production Readiness",
+      "Cross-functional Coordination",
+      "Team Mentoring",
+      "Workflow Optimization"
+    ],
+    "timeline": [
+      {
+        "period": "Jun 2025 - Present",
+        "project": "Current NPI Program",
+        "company": "Luxshare",
+        "role": "SW Tech Leader",
+        "scope": "StationSW / SFD-Diags / SPL",
+        "type": "Current Project",
+        "highlights": [
+          "Current major project ownership across multiple stations.",
+          "Own CMSW work across multiple SMT and FATP station workstreams.",
+          "Support calibration, I/O, QT, and related StationSW workstreams.",
+          "Support station software, test flow development, issue debug, and production readiness.",
+          "Coordinate with OPS, HWTE, EE, Diags, SFD, SPL, and other function teams.",
+          "Focus on StationSW, Diags, and SPL stability, workflow optimization, and team delivery."
+        ],
+        "badges": ["Current Project", "SW Tech Leader", "Multi-station Owner", "StationSW", "SFD-Diags", "SPL"],
+        "details": "This is my current major project stage. My role has expanded from single-station development to broader StationSW ownership, cross-functional coordination, workflow optimization, and team-level delivery across multiple workstreams."
+      },
+      {
+        "period": "Oct 2021 - Jun 2024",
+        "project": "M3-M4 MacBook Air",
+        "image": "assets/products/MacBookAir.png",
+        "imageAlt": "MacBook Air product image",
+        "company": "Wingtech",
+        "role": "ShippingSetting Owner & SFD Support",
+        "scope": "OPS Build Support / ShippingSetting / SFD",
+        "type": "Long-cycle Project",
+        "highlights": [
+          "Owned ShippingSetting-related work for the MacBook Air project.",
+          "Trusted with customer-side access to maintain ShippingSetting and related StationSW code under a new collaboration model.",
+          "Supported SFD activities and cross-functional issue analysis.",
+          "Worked across production, validation, and release support phases.",
+          "Maintained stable factory software delivery over a long project lifecycle.",
+          "Supported overlapping projects through team coverage and parallel ownership."
+        ],
+        "badges": ["Long-cycle Project", "ShippingSetting Owner", "SFD Support", "OPS Build Support", "MacBook Air"],
+        "details": "This was a long-cycle project where I supported both ownership work and cross-functional issue analysis. It helped me strengthen lifecycle support, production stability, and parallel project coordination."
+      },
+      {
+        "period": "May 2023 - Aug 2023",
+        "project": "AppleTV Platform Migration",
+        "image": "assets/products/ATV.png",
+        "imageAlt": "Apple TV product image",
+        "company": "WT / Luxshare",
+        "role": "QT Atlas1 to Atlas2 Migration Dev",
+        "scope": "Platform Migration / QT / Atlas2 Transfer",
+        "type": "Parallel Support",
+        "highlights": [
+          "Supported Atlas1 to Atlas2 migration for the AppleTV project.",
+          "Worked on architecture transfer and compatibility validation.",
+          "Helped align legacy test flow with Atlas2 structure.",
+          "Supported station readiness, issue debug, and build validation.",
+          "Strengthened experience in platform migration and test flow refactoring."
+        ],
+        "badges": ["Parallel Support", "Atlas Migration", "Platform Transfer", "QT Development", "AppleTV"],
+        "details": "This project focused on platform migration from Atlas1 to Atlas2. Although the project timeline changed later, the experience strengthened my understanding of test flow migration, compatibility validation, and platform-level refactoring."
+      },
+      {
+        "period": "Sep 2021 - Feb 2022",
+        "project": "AppleTV",
+        "image": "assets/products/ATV.png",
+        "imageAlt": "Apple TV product image",
+        "company": "WT / Luxshare",
+        "role": "QT Dev",
+        "scope": "QT Development / Factory Test Validation",
+        "type": "New Product Family",
+        "highlights": [
+          "Expanded project experience beyond the Mac product line.",
+          "Supported AppleTV QT development and factory test validation.",
+          "Adapted StationSW experience to a different product category.",
+          "Worked with cross-functional teams during build support.",
+          "Strengthened ability to support multiple product families."
+        ],
+        "badges": ["New Product Family", "QT Development", "Factory Validation", "AppleTV"],
+        "details": "This project expanded my experience from Mac-related projects to a new product family. It helped me adapt existing StationSW knowledge to a different product structure and factory validation flow."
+      },
+      {
+        "period": "Oct 2019 - Apr 2021",
+        "project": "M-series MacBook Pro",
+        "image": "assets/products/MacBook13.png",
+        "imageAlt": "MacBook Pro product image",
+        "company": "QSMC / Quanta",
+        "role": "QT Owner",
+        "scope": "QT Ownership / Team Development / Architecture Transition",
+        "type": "Team Growth",
+        "highlights": [
+          "Supported early M-series MacBook Pro project delivery.",
+          "Took ownership of QT flow, schedule, dry run, and station readiness.",
+          "Participated in Atlas1 to Atlas2 / Matchbox architecture transition.",
+          "Built reusable methods and common logic for team development.",
+          "Started training new team members and moving toward team-level delivery."
+        ],
+        "badges": ["QT Owner", "M-series Mac", "Team Growth", "Atlas1 to Atlas2", "Matchbox"],
+        "details": "This was the stage where I moved from individual project ownership toward team-level delivery. I supported QT execution while also helping build reusable methods, review code, and train new team members."
+      },
+      {
+        "period": "Aug 2018 - Oct 2019",
+        "project": "XDR Display Pro",
+        "image": "assets/products/XDR-DP.png",
+        "imageAlt": "Pro Display XDR product image",
+        "company": "QSMC / Quanta",
+        "role": "QT Owner / CMSW Owner",
+        "scope": "QT Ownership / New Station Development / OVL Structure",
+        "type": "Breakthrough Project",
+        "highlights": [
+          "First major breakthrough as CMSW / QT owner.",
+          "Independently handled new test station development and project support.",
+          "Designed and optimized OVL structure for flexible flash version builds.",
+          "Supported DOE / FA needs through configurable software flow.",
+          "Transitioned from modifying existing code to owning system delivery."
+        ],
+        "badges": ["Breakthrough Project", "QT Owner", "CMSW Owner", "OVL Structure", "XDR Display Pro"],
+        "details": "This was one of my most important breakthrough projects. I moved from modifying existing code to independently designing and delivering test station solutions. It also shaped my engineering mindset around configuration, tooling, and reusable structure."
+      },
+      {
+        "period": "Dec 2017 - Jul 2018",
+        "project": "15-inch MacBook Pro",
+        "image": "assets/products/MacBook15.png",
+        "imageAlt": "15-inch MacBook Pro product image",
+        "company": "QSMC / Quanta",
+        "role": "QT Dev",
+        "scope": "QT Development / Dry Run / Build Support",
+        "type": "Factory Test Foundation",
+        "highlights": [
+          "Supported QT development for the MacBook Pro project.",
+          "Gained hands-on experience with dry run, build support, and test flow validation.",
+          "Improved understanding of fixture, station, and production test interactions.",
+          "Started handling common test issues more independently.",
+          "Built stronger foundation in Mac factory test software."
+        ],
+        "badges": ["QT Dev", "MacBook Pro", "Factory Test Foundation", "Dry Run Support"],
+        "details": "This project helped me build practical factory test software experience. I started to understand the relationship between station software, fixtures, test flow, and production validation."
+      },
+      {
+        "period": "Jun 2017 - Dec 2017",
+        "project": "iMac Pro",
+        "image": "assets/products/iMac.png",
+        "imageAlt": "iMac Pro product image",
+        "company": "QSMC / Quanta",
+        "role": "Mac1 Dev",
+        "scope": "Mac Factory Test Software / Early Build Support",
+        "type": "First Apple CM Project",
+        "highlights": [
+          "First Apple CM project experience.",
+          "Started working on Mac-related factory test software.",
+          "Learned basic StationSW workflow, build support, and production test process.",
+          "Began transitioning from app development to factory test software.",
+          "Built early understanding of hardware-related software validation."
+        ],
+        "badges": ["First Apple CM Project", "Mac1 Dev", "Early Foundation", "Factory Test Software"],
+        "details": "This was my first Apple CM project and the starting point of my factory test software career. It helped me transition from app development into production test software and hardware-related validation."
+      },
+      {
+        "period": "Aug 2015 - May 2017",
+        "project": "iOS App Development",
+        "company": "Hangzhou YanChuan Technology Co., Ltd.",
+        "role": "iOS R&D Engineer",
+        "scope": "App Development / App Store Release / Product Iteration",
+        "type": "Career Start",
+        "highlights": [
+          "Started professional software career as an iOS developer.",
+          "Participated in building two commercial apps from 0 to 1.",
+          "Supported around a dozen App Store version updates.",
+          "Improved application experience based on user feedback and business requirements.",
+          "Built early software development habits through real product iteration."
+        ],
+        "badges": ["Career Start", "iOS Development", "0 to 1 Product", "App Store Release"],
+        "details": "This was my first professional software role. Although the environment was demanding, it gave me practical experience in product development, release iteration, user feedback, and maintaining software that had to serve real users."
+      }
+    ]
+  },
+  "resume": {
+    "profile": [
+      "8+ years experience in NPI and mass-production HW/SW test engineering across SMT and FATP for Apple Mac, iMac, AppleTV, XDR and M-series products.",
+      "Lead CM StationSW team and own station development, data collection, qualification, debug/FA and new version release, collaborating with vendors and cross-functional teams for new ID design products.",
+      "Highly recognized by customers and counterparts for SW solutions, troubleshooting skills and testing management, with the ability to quickly learn new technologies and handle multi-task problem-solving and communication effectively in high-intensity environments.",
+      "Bilingual engineer capable of managing test readiness and driving station deliverables from prototype to MP."
+    ],
+    "experience": [
+      {
+        "period": "2021/05 - Present",
+        "role": "R&D SW_Tech Leader",
+        "company": "Shanghai Wingtech / Luxshare Technology Co., Ltd.",
+        "products": [
+          "Sep. 2021 - Feb. 2022 · AppleTV · QT Dev",
+          "May 2023 - Aug. 2023 · AppleTV II · Atlas1 Transfer Atlas2 Dev",
+          "Oct. 2021 - Jun. 2024 · MacBook Air · ShippingSetting Owner & SFD Support",
+          "Jun. 2025 - Recent · Current NPI Program · Multi-station StationSW Owner"
+        ],
+        "responsibilities": [
+          "Lead the SW Tech team responsible for SFD, Diags and StationSW development, resource planning and customer requirement communication.",
+          "Collaborate closely with customer engineering through approved source-control workflows to co-develop new station features and coverage, and resolve project issues.",
+          "Independently owned and managed ShippingSetting station development during the Mac project.",
+          "Train and mentor junior engineers, reviewing code, defining technical standards and ensuring consistent readiness, data collection and station performance across all builds."
+        ]
+      },
+      {
+        "period": "2017/06 - 2021/05",
+        "role": "Hardware Testing (HWTE CMSW) Software Specialist",
+        "company": "QSMC",
+        "products": [
+          "Jun. 2017 - Dec. 2017 · iMac Pro · Mac1 Dev",
+          "Dec. 2017 - Jul. 2018 · 15-inch MacBook Pro · QT Dev",
+          "Aug. 2018 - Oct. 2019 · XDR Display Pro · QT Owner",
+          "Oct. 2019 - Apr. 2021 · M-series MacBook Pro · QT Owner"
+        ],
+        "responsibilities": [
+          "Provided technical support and manufacturing solutions for Apple test stations.",
+          "Delivered product verification design, code coverage development, data analysis and engineering documentation.",
+          "Collaborated with customer engineers on site to build and validate test coverage for new product features.",
+          "Managed project tasks, assigned work to team members and coordinated with cross-functional departments."
+        ]
+      },
+      {
+        "period": "2015/08 - 2017/05",
+        "role": "iOS R&D Engineer",
+        "company": "Hangzhou YanChuan Technology Co., Ltd.",
+        "responsibilities": [
+          "Developed and upgraded two commercial iOS applications released on the App Store (Yanchuan Education and ShiZunCiHang), improving user experience and maintaining the application codebase based on user feedback and new business requirements."
+        ]
+      }
+    ],
+    "delivery": [
+      "iMac Pro (2017)",
+      "MacBook Pro 15-inch (2018)",
+      "XDR Display Pro (2019)",
+      "M-series MacBook Pro / Air 13-inch and 15-inch (2020-2021)",
+      "AppleTV (2021-2022)",
+      "MacBook Air (2021-2024)",
+      "Current NPI Program (2025-recent)"
+    ],
+    "skills": [
+      {
+        "name": "Technical Skills",
+        "items": [
+          "Proficient in Atlas2 development; familiar with Schooner, Matchbox and Burgundy structure.",
+          "Skilled in Linux shell script, Lua and Rush (Atlas1); familiar with Objective-C.",
+          "Medium Computer Science knowledge and computer hardware setting."
+        ]
+      }
+    ],
+    "education": "2011-2015 · Shandong Agricultural University · Electronic Information Science and Technology · Bachelor of Engineering.",
+    "additional": [
+      "US VISA.",
+      "QSMC Elite Program Training Member.",
+      "WingTech Excellent Lecturer."
+    ]
+  },
+  "working Footprint": [
+    {
+      "city": "Shanghai",
+      "description": "Shanghai is where my factory test software identity became more mature. From station support to ownership and team-level delivery, this city carries many memories around project pressure, cross-functional collaboration, and professional growth."
+    },
+    {
+      "city": "Hangzhou",
+      "description": "Hangzhou was the starting point of my software career. It was where I built real apps, learned product iteration, and understood that software work is not only writing code, but also maintaining something real users depend on."
+    },
+    {
+      "city": "Kunshan",
+      "description": "Kunshan and Suzhou are part of my factory memory map. On-site support, dry run pressure, build validation, and issue debug made engineering problems concrete and taught me how production rhythm changes the way software must be delivered."
+    },
+    {
+      "city": "Kunming",
+      "description": "Kunming reminds me that many real production problems are solved through presence, patience, logs, repeated review, and team trust. It also gave intense work a different kind of city warmth."
+    },
+    {
+      "city": "USA",
+      "description": "The U.S. remains a marker of broader professional possibility for me: different teams, different cultures, and future engineering conversations beyond the factory sites I already know."
+    },
+    {
+      "city": "jiaxing",
+      "description": "xxxxxxxxxxx"
+    }
+  ],
+  "life": {
+    "summary": "The first version keeps life content secondary and controlled. It shows personality without turning the site into a social feed.",
+    "items": [
+      {
+        "name": "Drawing / Visual Storytelling",
+        "description": "Outside work, I am interested in drawing, visual storytelling, character design, and worldbuilding. It is another way for me to organize imagination, structure, and emotion."
+      },
+      {
+        "name": "Games",
+        "description": "I enjoy immersive games for their worldbuilding, system design, storytelling, and decision-making experiences."
+      },
+      {
+        "name": "League of Legends",
+        "description": "Strategy-based games help me think about teamwork, timing, role responsibility, risk, and decisions under pressure."
+      }
+    ]
+  },
+  "contact": {
+    "email": "229330643@qq.com",
+    "note": "The public version uses email as the primary contact method. Phone number, home address, and sensitive project details are intentionally excluded."
+  }
+}

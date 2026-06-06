@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Bean Dong public resume." />
+    <title>Resume | Bean Dong</title>
+    <link rel="icon" href="data:," />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body data-page="resume">
+    <header class="site-header">
+      <a class="brand" href="index.html" aria-label="Bean Dong home">
+        <img class="brand-avatar" src="assets/avatar.png" alt="" aria-hidden="true" />
+        <span>Bean Dong</span>
+      </a>
+      <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="site-nav" aria-label="Primary navigation">
+        <a href="index.html" data-nav="home">Home</a>
+        <a href="work.html" data-nav="work">Work</a>
+        <a href="resume.html" data-nav="resume">Resume</a>
+        <a href="places.html" data-nav="places">Places</a>
+        <a href="life.html" data-nav="life">Life</a>
+        <a href="contact.html" data-nav="contact">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="page-hero">
+        <p class="eyebrow">Resume</p>
+        <h1>Experience built from prototype to mass production.</h1>
+        <div class="resume-profile" id="resume-profile"></div>
+      </section>
+
+      <section class="section">
+        <div class="resume-layout">
+          <article class="resume-card wide resume-primary">
+            <p class="eyebrow">Working Experience</p>
+            <h2>Professional Experience</h2>
+            <div id="resume-experience"></div>
+          </article>
+          <article class="resume-card">
+            <p class="eyebrow">Portfolio</p>
+            <h2>Product Delivery Summary</h2>
+            <ul id="delivery-list"></ul>
+          </article>
+          <article class="resume-card">
+            <p class="eyebrow">Background</p>
+            <h2>Education & Additional</h2>
+            <p data-bind="resume.education"></p>
+            <ul id="additional-list"></ul>
+          </article>
+          <article class="resume-card wide">
+            <p class="eyebrow">Skills</p>
+            <h2>Technical Skills</h2>
+            <div class="skill-columns" id="skill-columns"></div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <span>Bean Dong Personal Website</span>
+      <span>Phone and address intentionally excluded.</span>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
