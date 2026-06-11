@@ -2,7 +2,7 @@
   "profile": {
     "name": "Bean Dong",
     "kicker": "Factory Test Software / StationSW / SFD / Atlas2 / Team Delivery.",
-    "title": "Consumer products reveal the result & Manufacturing and R&D hide the reasons.\n\nBehind every polished product are not only brand stories and symbolic value, but also engineering effort, efficiency pressure, human cost, and countless negotiations.\n\nMy work is not always glamorous.\nIt lives in the muddiest part of production — where technology, process, people, and cost meet.\nAnd it is there that I learned to see the real greatness of a product from the inside out.",
+    "title": "Consumer products reveal the result.\nManufacturing and R&D hide the reasons.\n\nBehind every polished product is more than brand story.\nThere is engineering pressure, human cost, efficiency, and countless negotiations.\n\nMy work is not always glamorous.\nIt lives in the muddiest part of production — where technology, process, people, and cost meet.\nThat is where I learned to see the greatness of a product from the inside out.",
     "summary": "I started as an app developer and grew into factory test software ownership, building station workflows, supporting production readiness, debugging complex issues, and helping teams deliver stable test systems across multiple Apple CM projects.",
     "tags": [
       "9+ Years CM Experience",
@@ -64,6 +64,16 @@
         "image": "assets/tools/terminal-png.avif"
       }
     ],
+    "capabilityBand": [
+      "StationSW",
+      "OVL",
+      "Atlas2",
+      "SFD",
+      "Diags",
+      "SPL",
+      "Data Reporting",
+      "Team Delivery"
+    ],
     "metrics": [
       {
         "value": "8+",
@@ -98,12 +108,17 @@
     ]
   },
   "career": {
-    "short": "My career started in Hangzhou as an iOS app developer, where I helped build two applications from 0 to 1 and supported multiple App Store release iterations. I later joined QSMC and moved from pure software development into factory test software. The XDR Display Pro project became a major turning point: under high pressure and limited resources, I began to design test stations and OVL structure independently. After that, I supported multiple Mac projects, participated in Atlas1 to Atlas2 / Matchbox architecture transition, and started mentoring new engineers through QT development, dry run support, code review, and team delivery. At WT / Luxshare, I returned to Apple CM project work with broader StationSW responsibility, focusing on factory test software, automation tools, workflow optimization, production readiness, and team-level delivery."
+    "short": "My career started in Hangzhou as an iOS app developer, where I helped build two applications from 0 to 1 and supported multiple App Store release iterations. I later joined QSMC and moved from pure software development into factory test software. The XDR Display Pro project became a major turning point: under high pressure and limited resources, I began to design test stations and OVL structure independently. After that, I supported multiple Mac projects, participated in Atlas1 to Atlas2 / Matchbox architecture transition, and started mentoring new engineers through QT development, dry run support, code review, and team delivery. At WT / Luxshare, I returned to Apple CM project work with broader StationSW responsibility, focusing on factory test software, automation tools, workflow optimization, production readiness, and team-level delivery.",
+    "story": [
+      "My career started in Hangzhou as an iOS app developer, where I helped build two applications from 0 to 1 and supported multiple App Store release iterations.",
+      "Later at QSMC, I moved from pure software development into factory test software. The Pro Display XDR project became a turning point — I began to design test stations and OVL structure independently under pressure and limited resources.",
+      "At WT / Luxshare, I returned to Apple CM project work with broader StationSW responsibility: factory test software, automation tools, workflow optimization, production readiness, and team-level delivery."
+    ]
   },
   "work": {
     "overview": "My work sits between software development and real factory execution. I build and maintain station software, and lead the team in building and maintaining stable test workflows across NPI and mass-production phases. I also support dry runs, build validation, production issue debugging, and cross-functional coordination.",
-    "currentRole": "I lead StationSW work across SFD-Diags and SPL-related workstreams, covering bring-up, test flow development, production readiness, issue debugging, and cross-functional coordination across current and established product programs.",
-    "overlapNote": "Projects are not always linear. StationSW, SPL, and Diags responsibilities often continue across product programs, with production support, new-project bring-up, platform migration, and release readiness running in parallel.",
+    "currentRole": "Owning StationSW delivery across current and established programs. From bring-up to production readiness.",
+    "overlapNote": "Projects are not linear. StationSW, SFD, Diags, and SPL move together across bring-up, migration, release readiness, and MP support.",
     "currentPrograms": [
       "Current NPI",
       "AppleTV",
@@ -132,6 +147,8 @@
     "timeline": [
       {
         "period": "Jun 2025 - Present",
+        "visualMark": "NPI",
+        "visualCaption": "2025 → Present",
         "project": "Current NPI Program",
         "company": "Luxshare",
         "role": "SW Tech Leader",
@@ -146,10 +163,12 @@
           "Focus on StationSW, Diags, and SPL stability, workflow optimization, and team delivery."
         ],
         "badges": ["Current Project", "SW Tech Leader", "Multi-station Owner", "StationSW", "SFD-Diags", "SPL"],
-        "details": "This is my current major project stage. My role has expanded from single-station development to broader StationSW ownership, cross-functional coordination, workflow optimization, and team-level delivery across multiple workstreams."
+        "details": "Expanding from single-station development to broader StationSW ownership across bring-up, workflow optimization, production readiness, and team delivery."
       },
       {
         "period": "Oct 2021 - Jun 2024",
+        "visualMark": "M3 → M4",
+        "visualCaption": "ShippingSetting / long-cycle support",
         "project": "M3-M4 MacBook Air",
         "image": "assets/products/MacBookAir.png",
         "imageAlt": "MacBook Air product image",
@@ -166,10 +185,12 @@
           "Supported overlapping projects through team coverage and parallel ownership."
         ],
         "badges": ["Long-cycle Project", "ShippingSetting Owner", "SFD Support", "OPS Build Support", "MacBook Air"],
-        "details": "This was a long-cycle project where I supported both ownership work and cross-functional issue analysis. It helped me strengthen lifecycle support, production stability, and parallel project coordination."
+        "details": "Long-cycle ownership across ShippingSetting, production stability, release support, and cross-functional issue analysis."
       },
       {
         "period": "May 2023 - Aug 2023",
+        "visualMark": "Atlas1 → Atlas2",
+        "visualCaption": "Platform migration",
         "project": "AppleTV Platform Migration",
         "image": "assets/products/ATV.png",
         "imageAlt": "Apple TV product image",
@@ -185,7 +206,7 @@
           "Strengthened experience in platform migration and test flow refactoring."
         ],
         "badges": ["Parallel Support", "Atlas Migration", "Platform Transfer", "QT Development", "AppleTV"],
-        "details": "This project focused on platform migration from Atlas1 to Atlas2. Although the project timeline changed later, the experience strengthened my understanding of test flow migration, compatibility validation, and platform-level refactoring."
+        "details": "Migrating legacy test flows from Atlas1 to Atlas2 through architecture transfer, compatibility validation, and station readiness."
       },
       {
         "period": "Sep 2021 - Feb 2022",
@@ -204,7 +225,7 @@
           "Strengthened ability to support multiple product families."
         ],
         "badges": ["New Product Family", "QT Development", "Factory Validation", "AppleTV"],
-        "details": "This project expanded my experience from Mac-related projects to a new product family. It helped me adapt existing StationSW knowledge to a different product structure and factory validation flow."
+        "details": "Extending StationSW experience beyond Mac into a new product structure and factory validation flow."
       },
       {
         "period": "Oct 2019 - Apr 2021",
@@ -223,7 +244,7 @@
           "Started training new team members and moving toward team-level delivery."
         ],
         "badges": ["QT Owner", "M-series Mac", "Team Growth", "Atlas1 to Atlas2", "Matchbox"],
-        "details": "This was the stage where I moved from individual project ownership toward team-level delivery. I supported QT execution while also helping build reusable methods, review code, and train new team members."
+        "details": "Moving from individual QT ownership toward reusable architecture, code review, mentoring, and team-level delivery."
       },
       {
         "period": "Aug 2018 - Oct 2019",
@@ -242,7 +263,7 @@
           "Transitioned from modifying existing code to owning system delivery."
         ],
         "badges": ["Breakthrough Project", "QT Owner", "CMSW Owner", "OVL Structure", "XDR Display Pro"],
-        "details": "This was one of my most important breakthrough projects. I moved from modifying existing code to independently designing and delivering test station solutions. It also shaped my engineering mindset around configuration, tooling, and reusable structure."
+        "details": "A breakthrough from modifying existing code to independently designing test stations, OVL structure, and reusable delivery tools."
       },
       {
         "period": "Dec 2017 - Jul 2018",
@@ -261,7 +282,7 @@
           "Built stronger foundation in Mac factory test software."
         ],
         "badges": ["QT Dev", "MacBook Pro", "Factory Test Foundation", "Dry Run Support"],
-        "details": "This project helped me build practical factory test software experience. I started to understand the relationship between station software, fixtures, test flow, and production validation."
+        "details": "Building practical factory test foundations across station software, fixtures, dry runs, test flow, and production validation."
       },
       {
         "period": "Jun 2017 - Dec 2017",
@@ -280,7 +301,7 @@
           "Built early understanding of hardware-related software validation."
         ],
         "badges": ["First Apple CM Project", "Mac1 Dev", "Early Foundation", "Factory Test Software"],
-        "details": "This was my first Apple CM project and the starting point of my factory test software career. It helped me transition from app development into production test software and hardware-related validation."
+        "details": "The starting point of my factory test software career and the transition into production software and hardware-related validation."
       },
       {
         "period": "Aug 2015 - May 2017",
@@ -297,7 +318,7 @@
           "Built early software development habits through real product iteration."
         ],
         "badges": ["Career Start", "iOS Development", "0 to 1 Product", "App Store Release"],
-        "details": "This was my first professional software role. Although the environment was demanding, it gave me practical experience in product development, release iteration, user feedback, and maintaining software that had to serve real users."
+        "details": "Building commercial iOS products from zero to release, then improving them through real user feedback and repeated App Store iterations."
       }
     ]
   },
@@ -378,51 +399,333 @@
       "WingTech Excellent Lecturer."
     ]
   },
-  "working Footprint": [
+  "placesPage": {
+    "heroTitle": "Places I've worked.",
+    "heroSubtitle": "Places that shaped how I see engineering, people, and the world.",
+    "heroImage": "assets/FootPrint/shanghai-bund.jpg",
+    "heroImagePosition": "center 64%",
+    "introLead": "The world is vast.",
+    "introBody": "A career is not only measured by titles, but by the places, people, and problems that expand how we understand it.",
+    "galleryEyebrow": "Footprint photo journal",
+    "galleryTitle": "Work happened here. Life happened around it.",
+    "galleryBody": "Factories and city skylines mark the assignments. Team photos, hikes, and shared celebrations hold the memories between them.",
+    "gallery": [
+      {
+        "location": "Shanghai",
+        "title": "Where factory test software became a profession.",
+        "image": "assets/FootPrint/shanghai-quanta-campus.jpg",
+        "imageAlt": "Quanta campus in Shanghai under a blue sky",
+        "imagePosition": "center 58%",
+        "shape": "feature"
+      },
+      {
+        "location": "Shanghai",
+        "title": "A city built at engineering speed.",
+        "image": "assets/FootPrint/shanghai-pudong.jpg",
+        "imageAlt": "Pudong skyline viewed from above",
+        "imagePosition": "center 45%",
+        "shape": "tall"
+      },
+      {
+        "location": "Shanghai",
+        "title": "Late shifts, long projects, visible milestones.",
+        "image": "assets/FootPrint/shanghai-quanta-night.jpg",
+        "imageAlt": "Quanta sign illuminated at night",
+        "imagePosition": "center",
+        "shape": "standard"
+      },
+      {
+        "location": "Kunming",
+        "title": "On-site support became shared ownership.",
+        "image": "assets/FootPrint/kunming-team.jpg",
+        "imageAlt": "Software and engineering team outside the Kunming site",
+        "imagePosition": "center 58%",
+        "shape": "wide"
+      },
+      {
+        "location": "Kunming",
+        "title": "The team beyond the production floor.",
+        "image": "assets/FootPrint/kunming-hike.jpg",
+        "imageAlt": "Colleagues pausing during a hike near Kunming",
+        "imagePosition": "center 72%",
+        "shape": "tall"
+      },
+      {
+        "location": "Kunming",
+        "title": "Warm skies after demanding days.",
+        "image": "assets/FootPrint/kunming-factory.jpg",
+        "imageAlt": "Kunming city and mountains under a pink evening sky",
+        "imagePosition": "center 56%",
+        "shape": "feature"
+      },
+      {
+        "location": "Jiaxing",
+        "title": "A software team built through real delivery.",
+        "image": "assets/FootPrint/jiaxing-software-team.jpg",
+        "imageAlt": "Jiaxing software team group portrait",
+        "imagePosition": "center 52%",
+        "shape": "feature"
+      },
+      {
+        "location": "Jiaxing",
+        "title": "Project pressure, solved together.",
+        "image": "assets/FootPrint/jiaxing-team-life.jpg",
+        "imageAlt": "Team members gathered around a computer in Jiaxing",
+        "imagePosition": "center 50%",
+        "shape": "standard"
+      },
+      {
+        "location": "Wuxi",
+        "title": "Old structure beside new industry.",
+        "image": "assets/FootPrint/wuxi-city.jpg",
+        "imageAlt": "Traditional tower framed by modern buildings in Wuxi",
+        "imagePosition": "center 48%",
+        "shape": "tall"
+      },
+      {
+        "location": "United States",
+        "title": "A business trip that widened the map.",
+        "image": "assets/FootPrint/usa-business-trip.jpg",
+        "imageAlt": "Colleagues together during a United States business trip",
+        "imagePosition": "center 48%",
+        "shape": "wide"
+      },
+      {
+        "location": "United States",
+        "title": "Distance changed the perspective.",
+        "image": "assets/FootPrint/usa-grand-canyon.jpg",
+        "imageAlt": "Photographing the Grand Canyon during a business trip",
+        "imagePosition": "center 50%",
+        "shape": "feature"
+      },
+      {
+        "location": "United States",
+        "title": "The colleagues who made distance feel closer.",
+        "image": "assets/FootPrint/usa-birthday.jpg",
+        "imageAlt": "A birthday surprise from colleagues during a United States assignment",
+        "imagePosition": "center 52%",
+        "shape": "standard"
+      }
+    ],
+    "journeyTitle": "Coordinates of a professional journey.",
+    "journeyBody": "Different cities carry different project rhythms. Together, they form a map of learning, delivery, and change.",
+    "finaleTitle": "Where is my next station?"
+  },
+  "places": [
     {
       "city": "Shanghai",
-      "description": "Shanghai is where my factory test software identity became more mature. From station support to ownership and team-level delivery, this city carries many memories around project pressure, cross-functional collaboration, and professional growth."
-    },
-    {
-      "city": "Hangzhou",
-      "description": "Hangzhou was the starting point of my software career. It was where I built real apps, learned product iteration, and understood that software work is not only writing code, but also maintaining something real users depend on."
-    },
-    {
-      "city": "Kunshan",
-      "description": "Kunshan and Suzhou are part of my factory memory map. On-site support, dry run pressure, build validation, and issue debug made engineering problems concrete and taught me how production rhythm changes the way software must be delivered."
+      "work": "Factory test software ownership and team-level delivery.",
+      "people": "Cross-functional engineering teams working through pressure and change.",
+      "taste": "Density, speed, and discipline.",
+      "summary": "Station support grew into ownership, coordination, and broader responsibility.",
+      "layout": "large",
+      "tone": "shanghai",
+      "image": "assets/FootPrint/shanghai-quanta-campus.jpg",
+      "imageAlt": "Quanta campus in Shanghai",
+      "imagePosition": "center 58%"
     },
     {
       "city": "Kunming",
-      "description": "Kunming reminds me that many real production problems are solved through presence, patience, logs, repeated review, and team trust. It also gave intense work a different kind of city warmth."
+      "work": "On-site production support, issue analysis, and execution.",
+      "people": "Teams building trust through logs, repeated review, and shared pressure.",
+      "taste": "Presence, patience, and warmth.",
+      "summary": "A place where production problems became concrete and teamwork mattered every day.",
+      "layout": "medium",
+      "tone": "kunming",
+      "image": "assets/FootPrint/kunming-team.jpg",
+      "imageAlt": "Engineering team at the Kunming site",
+      "imagePosition": "center 58%"
+    },
+    {
+      "city": "Hangzhou",
+      "work": "Commercial iOS product development and release iteration.",
+      "people": "A small software team learning through real products and real users.",
+      "taste": "The beginning.",
+      "summary": "The starting point of my software career and my first experience maintaining products people used.",
+      "layout": "small",
+      "tone": "hangzhou",
+      "image": "",
+      "imageAlt": "Hangzhou city memory"
+    },
+    {
+      "city": "Wuxi",
+      "work": "Project travel, technical exchange, and a wider view of the manufacturing network.",
+      "people": "Engineering conversations carried beyond one site or one team.",
+      "taste": "Old structure beside new industry.",
+      "summary": "Another coordinate in a career shaped by movement between cities, teams, and project needs.",
+      "layout": "small",
+      "tone": "factory",
+      "image": "assets/FootPrint/wuxi-city.jpg",
+      "imageAlt": "Traditional tower among modern buildings in Wuxi",
+      "imagePosition": "center 48%"
+    },
+    {
+      "city": "Kunshan / Suzhou",
+      "work": "Dry runs, build validation, and factory issue debugging.",
+      "people": "On-site teams coordinating around production rhythm.",
+      "taste": "Practical answers under time pressure.",
+      "summary": "Factory work taught me how software changes when every delay becomes visible.",
+      "layout": "small",
+      "tone": "factory",
+      "image": "",
+      "imageAlt": "Kunshan and Suzhou work memory"
     },
     {
       "city": "USA",
-      "description": "The U.S. remains a marker of broader professional possibility for me: different teams, different cultures, and future engineering conversations beyond the factory sites I already know."
+      "work": "A marker for broader professional possibility.",
+      "people": "Different teams, cultures, and future engineering conversations.",
+      "taste": "Scale, distance, and perspective.",
+      "summary": "A reminder that the next professional chapter can extend beyond the factory sites I already know.",
+      "layout": "small",
+      "tone": "usa",
+      "image": "assets/FootPrint/usa-grand-canyon.jpg",
+      "imageAlt": "Photographing the Grand Canyon during a United States business trip",
+      "imagePosition": "center 50%"
     },
     {
-      "city": "jiaxing",
-      "description": "xxxxxxxxxxx"
+      "city": "Jiaxing",
+      "work": "Software team collaboration and project delivery close to the production site.",
+      "people": "A team learning, debugging, and growing through shared responsibility.",
+      "taste": "Delivery made personal.",
+      "summary": "The work was technical, but the lasting memory is how the team solved hard days together.",
+      "layout": "wide",
+      "tone": "jiaxing",
+      "image": "assets/FootPrint/jiaxing-software-team.jpg",
+      "imageAlt": "Jiaxing software team group portrait",
+      "imagePosition": "center 52%"
     }
   ],
   "life": {
-    "summary": "The first version keeps life content secondary and controlled. It shows personality without turning the site into a social feed.",
+    "heroTitle": "Interest driven.",
+    "heroSubtitle": "A life shaped by curiosity, creation, games, motion, and the things I genuinely enjoy.",
+    "heroImage": "assets/Life/life_interest_dark_collage_under200k.webp",
+    "heroImagePosition": "center",
+    "introLead": "Beyond work,",
+    "introBody": "life is built by the things that keep me curious, creative, and connected to the world.",
+    "galleryTitle": "A few things that keep life interesting.",
+    "statementTitle": "Not everything needs a reason.",
+    "statementBody": "Some things are simply interest-driven. A drawing, a landscape, a finished build, or a hard game may not belong on a resume, but they still shape how life feels.",
+    "finaleTitle": "For the things I love.",
+    "finaleBody": "Work builds capability. Life keeps curiosity alive.",
     "items": [
       {
-        "name": "Drawing / Visual Storytelling",
-        "description": "Outside work, I am interested in drawing, visual storytelling, character design, and worldbuilding. It is another way for me to organize imagination, structure, and emotion."
+        "label": "Drawing",
+        "name": "Lines, colors, and imagination.",
+        "summary": "Some ideas are easier to draw than to explain.",
+        "layout": "large",
+        "tone": "art",
+        "image": "assets/Life/life_art_100k_web.webp",
+        "imageAlt": "Bean Dong holding a tablet displaying his digital drawing",
+        "imagePosition": "center 46%"
       },
       {
-        "name": "Games",
-        "description": "I enjoy immersive games for their worldbuilding, system design, storytelling, and decision-making experiences."
+        "label": "Photography",
+        "name": "Frames of the world.",
+        "summary": "Landscapes, cities, light, and the quiet moments between them.",
+        "layout": "medium",
+        "tone": "photo",
+        "image": "assets/Life/flower_reflection_thumb_60k.webp",
+        "imageAlt": "White flowers reflected on blue water",
+        "imagePosition": "center"
       },
       {
-        "name": "League of Legends",
-        "description": "Strategy-based games help me think about teamwork, timing, role responsibility, risk, and decisions under pressure."
+        "label": "DIY",
+        "name": "Built, tuned, upgraded.",
+        "summary": "PC builds, hardware projects, and the satisfaction of making systems work.",
+        "layout": "medium",
+        "tone": "diy",
+        "image": "assets/Life/diy_4in1_thumb_60k.webp",
+        "imageAlt": "Four-part collage of custom PC hardware and builds",
+        "imagePosition": "center"
+      },
+      {
+        "label": "Gaming",
+        "name": "Another world, another self.",
+        "summary": "Games offer systems, stories, teamwork, and memorable worlds to explore.",
+        "layout": "large",
+        "tone": "game",
+        "image": "assets/Life/virtual_worlds_web_100k.webp",
+        "imageAlt": "Collage of virtual worlds and gaming memories",
+        "imagePosition": "center"
+      },
+      {
+        "label": "Motion",
+        "name": "Run. Jump. Move.",
+        "summary": "Running, movement, and physical goals outside work.",
+        "layout": "small",
+        "tone": "motion",
+        "image": "assets/Life/running_night_thumb_60k.webp",
+        "imageAlt": "Night running captured in motion",
+        "imagePosition": "center 56%"
+      },
+      {
+        "label": "Friends",
+        "name": "Shared stories.",
+        "summary": "The best interests often become memories because other people were part of them.",
+        "layout": "small",
+        "tone": "friends",
+        "image": "assets/Life/hiking_group_web_50_70k.webp",
+        "imageAlt": "Friends pausing together during a mountain hike",
+        "imagePosition": "center 72%"
+      },
+      {
+        "label": "Landscape",
+        "name": "Chasing light.",
+        "summary": "Roads, mountains, cities, and the moments worth stopping to remember.",
+        "layout": "small",
+        "tone": "landscape",
+        "image": "assets/Life/mountain_thumb_60k.webp",
+        "imageAlt": "Snow-covered mountain range under a blue sky",
+        "imagePosition": "center 52%"
+      }
+    ],
+    "gallery": [
+      {
+        "name": "My drawings",
+        "tone": "art",
+        "image": "assets/Life/life_art_100k_web.webp",
+        "imageAlt": "Digital drawing presented on a tablet",
+        "imagePosition": "center 46%"
+      },
+      {
+        "name": "My photos",
+        "tone": "photo",
+        "image": "assets/Life/flower_reflection_thumb_60k.webp",
+        "imageAlt": "White flowers reflected on blue water",
+        "imagePosition": "center"
+      },
+      {
+        "name": "My builds",
+        "tone": "diy",
+        "image": "assets/Life/diy_4in1_thumb_60k.webp",
+        "imageAlt": "Custom PC hardware and build collage",
+        "imagePosition": "center"
+      },
+      {
+        "name": "My motion",
+        "tone": "motion",
+        "image": "assets/Life/running_night_thumb_60k.webp",
+        "imageAlt": "Night running captured in motion",
+        "imagePosition": "center 56%"
+      },
+      {
+        "name": "My games",
+        "tone": "game",
+        "image": "assets/Life/virtual_worlds_web_100k.webp",
+        "imageAlt": "Collage of virtual worlds and gaming memories",
+        "imagePosition": "center"
       }
     ]
   },
   "contact": {
     "email": "229330643@qq.com",
-    "note": "The public version uses email as the primary contact method. Phone number, home address, and sensitive project details are intentionally excluded."
+    "globalEmail": "BeanDong2048@gmail.com",
+    "emailAction": "Send Email",
+    "headline": "For work, projects,\nand what comes next.",
+    "note": "Email is the best way to reach me for professional conversations.",
+    "privacyNote": "This public profile keeps phone number, home address, and sensitive project details private.",
+    "cardLabel": "Available for",
+    "cardTitle": "Engineering conversations and custom PC services",
+    "cardBody": "Professional: factory test software, NPI delivery, StationSW ownership, and cross-functional engineering. Custom PC services: premium graphics card sourcing from overseas markets, DIY build consulting, and end-to-end high-end PC assembly in Shanghai."
   }
 }

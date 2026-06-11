@@ -6,12 +6,12 @@
     <meta name="description" content="Contact Bean Dong." />
     <title>Contact | Bean Dong</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260610-4" />
   </head>
   <body data-page="contact">
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="Bean Dong home">
-        <img class="brand-avatar" src="assets/avatar.png" alt="" aria-hidden="true" />
+        <span class="brand-monogram" aria-hidden="true">BD</span>
         <span>Bean Dong</span>
       </a>
       <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
@@ -28,22 +28,53 @@
     </header>
 
     <main>
-      <section class="contact-hero">
-        <p class="eyebrow">Contact</p>
-        <h1>For HR, project conversations, and future opportunities.</h1>
-        <p data-bind="contact.note"></p>
-        <div class="hero-actions">
-          <a class="button primary" id="email-link" href="#">Email Me</a>
-          <a class="button secondary" href="resume.html">View Resume</a>
+      <section class="contact-hero standard-hero contact-standard-hero">
+        <div class="standard-hero-copy contact-intro">
+          <p class="eyebrow">Contact</p>
+          <h1 data-bind="contact.headline"></h1>
+          <div class="contact-notes">
+            <p class="contact-note" data-bind="contact.note"></p>
+            <p class="contact-note" data-bind="contact.privacyNote"></p>
+          </div>
+          <div class="contact-email-list">
+            <div class="contact-email-item">
+              <p class="contact-email-label">China</p>
+              <div class="contact-email-line">
+                <a class="button primary" id="china-email-link" href="#">Send Email</a>
+                <a class="contact-email-address" id="china-email-address" href="#"></a>
+              </div>
+            </div>
+            <div class="contact-email-item">
+              <p class="contact-email-label">Global</p>
+              <div class="contact-email-line">
+                <a class="button secondary" id="global-email-link" href="#">Send Email</a>
+                <a class="contact-email-address" id="global-email-address" href="#"></a>
+              </div>
+            </div>
+          </div>
+          <div class="contact-signals" aria-label="Contact details">
+            <span>Professional contact</span>
+            <span>Public-safe profile</span>
+            <span>Domestic / global email</span>
+          </div>
+          <a class="contact-resume-link" href="resume.html">
+            View Resume
+            <span aria-hidden="true">→</span>
+          </a>
         </div>
+        <aside class="contact-card">
+          <p class="contact-card-label" data-bind="contact.cardLabel"></p>
+          <h2 data-bind="contact.cardTitle"></h2>
+          <p class="contact-card-copy" data-bind="contact.cardBody"></p>
+        </aside>
       </section>
     </main>
 
     <footer class="site-footer">
-      <span>Bean Dong Personal Website</span>
-      <span>Public contact uses email only.</span>
+      <span>Bean Dong</span>
+      <span>Professional contact available by email.</span>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=20260610-4"></script>
   </body>
 </html>

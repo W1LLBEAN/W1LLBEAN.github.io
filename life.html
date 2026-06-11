@@ -6,12 +6,12 @@
     <meta name="description" content="Bean Dong life and creative interests." />
     <title>Life | Bean Dong</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260612-2" />
   </head>
   <body data-page="life">
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="Bean Dong home">
-        <img class="brand-avatar" src="assets/avatar.png" alt="" aria-hidden="true" />
+        <span class="brand-monogram" aria-hidden="true">BD</span>
         <span>Bean Dong</span>
       </a>
       <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
@@ -27,22 +27,52 @@
       </nav>
     </header>
 
-    <main>
-      <section class="page-hero">
-        <p class="eyebrow">Life</p>
-        <h1>Professional first, but not only professional.</h1>
-        <p data-bind="life.summary"></p>
+    <main class="visual-page life-page">
+      <section class="visual-hero-section">
+        <div class="visual-hero-card life-visual-hero">
+          <img class="visual-hero-image" id="life-hero-image" alt="" hidden />
+          <div class="visual-hero-overlay" aria-hidden="true"></div>
+          <div class="visual-hero-copy">
+            <p class="visual-eyebrow">Life</p>
+            <h1 data-bind="life.heroTitle"></h1>
+            <p data-bind="life.heroSubtitle"></p>
+          </div>
+        </div>
       </section>
-      <section class="section">
-        <div class="life-grid" id="life-grid"></div>
+
+      <section class="visual-intro">
+        <p>
+          <span data-bind="life.introLead"></span>
+          <span class="visual-intro-muted" data-bind="life.introBody"></span>
+        </p>
+      </section>
+
+      <section class="visual-feature-grid life-grid" id="life-grid" aria-label="Life interests"></section>
+
+      <section class="visual-gallery-section">
+        <h2 data-bind="life.galleryTitle"></h2>
+        <div class="visual-gallery-strip" id="life-gallery"></div>
+      </section>
+
+      <section class="visual-statement">
+        <h2 data-bind="life.statementTitle"></h2>
+        <p data-bind="life.statementBody"></p>
+      </section>
+
+      <section class="visual-finale">
+        <div>
+          <p class="visual-finale-kicker">Life</p>
+          <h2 data-bind="life.finaleTitle"></h2>
+          <p data-bind="life.finaleBody"></p>
+        </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <span>Bean Dong Personal Website</span>
-      <span>Light personal signal for the first version.</span>
+      <span>Bean Dong</span>
+      <span>Interests, creative work, and life outside engineering.</span>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=20260612-2"></script>
   </body>
 </html>

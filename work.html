@@ -6,12 +6,12 @@
     <meta name="description" content="Bean Dong work timeline and project ownership." />
     <title>Work | Bean Dong</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260610-3" />
   </head>
   <body data-page="work">
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="Bean Dong home">
-        <img class="brand-avatar" src="assets/avatar.png" alt="" aria-hidden="true" />
+        <span class="brand-monogram" aria-hidden="true">BD</span>
         <span>Bean Dong</span>
       </a>
       <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
@@ -29,23 +29,25 @@
 
     <main class="work-page">
       <section class="work-intro">
-        <p class="eyebrow work-label">Work</p>
+        <div class="work-intro-heading">
+          <div>
+            <p class="eyebrow work-label">Work</p>
+            <h1>Factory software ownership across products and production stages.</h1>
+          </div>
+          <p>Station development, project overlap, production readiness, and team delivery shown as one connected engineering timeline.</p>
+        </div>
 
         <div class="work-overview">
           <article class="info-panel role-panel">
             <div class="panel-heading">
               <p class="panel-label">Current Role</p>
-              <span class="status-dot">Active</span>
             </div>
             <h2>SW Tech Leader</h2>
             <p data-bind="work.currentRole"></p>
-            <div class="program-list" id="current-programs"></div>
-            <div class="capability-list" id="capabilities"></div>
           </article>
           <article class="info-panel overlap-panel">
             <div class="panel-heading">
               <p class="panel-label">Project Overlap</p>
-              <span class="overlap-symbol" aria-hidden="true"><i></i><i></i><i></i></span>
             </div>
             <h2>Parallel by design.</h2>
             <p data-bind="work.overlapNote"></p>
@@ -57,18 +59,17 @@
       <section class="work-timeline-section" id="timeline">
         <div class="work-timeline-heading">
           <p class="eyebrow">Timeline</p>
-          <h1>Latest to earliest</h1>
-          <p>Each color marks a product family. Parallel responsibilities are called out within the project cards.</p>
+          <h1>From current ownership to the starting point.</h1>
         </div>
         <div class="timeline-list" id="work-timeline"></div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <span>Bean Dong Personal Website</span>
-      <span>Work content managed in data/site.json.</span>
+      <span>Bean Dong</span>
+      <span>Factory Test Software / StationSW / Product Delivery</span>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=20260610-3"></script>
   </body>
 </html>

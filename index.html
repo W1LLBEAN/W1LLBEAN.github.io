@@ -9,12 +9,12 @@
     />
     <title>Bean Dong | Factory Test Software Engineer</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260610-2" />
   </head>
   <body data-page="home">
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="Bean Dong home">
-        <img class="brand-avatar" src="assets/avatar.png" alt="" aria-hidden="true" />
+        <span class="brand-monogram" aria-hidden="true">BD</span>
         <span>Bean Dong</span>
       </a>
       <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
@@ -39,37 +39,23 @@
           <div class="hero-actions">
             <a class="button primary" href="work.html">View Work</a>
             <a class="button secondary" href="resume.html">View Resume</a>
-            <a class="button text-button" href="contact.html">Contact Me</a>
           </div>
-          <p class="hero-summary" data-bind="profile.summary"></p>
         </div>
-        <div class="hero-tool-visual" aria-label="Tools and applications I use">
-          <div class="planet-system" aria-hidden="true">
-            <div class="planet-aura"></div>
-            <div class="orbit-band orbit-band-back">
-              <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-            </div>
-            <div class="planet-sphere">
-              <div class="planet-atmosphere"></div>
-              <div class="planet-surface"></div>
-              <div class="planet-haze"></div>
-            </div>
-            <div class="orbit-band orbit-band-front">
-              <span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-            </div>
-          </div>
-          <div class="tool-current" id="tool-shelf"></div>
-          <div class="visual-fog" aria-hidden="true"></div>
-        </div>
-        <div class="tag-cloud hero-tag-cloud" id="hero-tags"></div>
       </section>
 
-      <section class="section split-section">
+      <section class="home-visual-band" aria-label="Engineering test environment">
+        <img
+          src="assets/home/engineering-test-station.png"
+          alt="A modern electronics engineering test station with diagnostic equipment and production fixtures"
+        />
+      </section>
+
+      <section class="section split-section career-story-section">
         <div>
           <p class="eyebrow">Career Story</p>
-          <h2>From app development to factory test software ownership.</h2>
+          <h2>From apps to factories.<br />From code to delivery.</h2>
         </div>
-        <div class="prose large" data-bind="career.short"></div>
+        <div class="career-story-copy" id="career-story"></div>
       </section>
 
       <section class="section soft-section">
@@ -78,6 +64,10 @@
           <h2>Built through product coverage, platform migration, and factory delivery.</h2>
         </div>
         <div class="metric-grid" id="metrics"></div>
+        <div class="capability-band">
+          <span class="capability-band-label">Engineering surface</span>
+          <div class="capability-band-list" id="capability-band"></div>
+        </div>
       </section>
 
       <section class="section">
@@ -90,10 +80,10 @@
     </main>
 
     <footer class="site-footer">
-      <span>Bean Dong Personal Website</span>
-      <span>GitHub Pages ready.</span>
+      <span>Bean Dong</span>
+      <span>Work. Places. Life. Engineering.</span>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=20260610-2"></script>
   </body>
 </html>

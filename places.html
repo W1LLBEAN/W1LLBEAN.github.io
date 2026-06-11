@@ -6,12 +6,12 @@
     <meta name="description" content="Bean Dong places and work memories." />
     <title>Places | Bean Dong</title>
     <link rel="icon" href="data:," />
-    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="styles.css?v=20260611-2" />
   </head>
   <body data-page="places">
     <header class="site-header">
       <a class="brand" href="index.html" aria-label="Bean Dong home">
-        <img class="brand-avatar" src="assets/avatar.png" alt="" aria-hidden="true" />
+        <span class="brand-monogram" aria-hidden="true">BD</span>
         <span>Bean Dong</span>
       </a>
       <button class="nav-toggle" type="button" aria-label="Open navigation" aria-expanded="false">
@@ -27,22 +27,57 @@
       </nav>
     </header>
 
-    <main>
-      <section class="page-hero">
-        <p class="eyebrow">Places</p>
-        <h1>Work memories across cities, teams, and project phases.</h1>
-        <p>Not a travel guide. More like a map of where engineering pressure, people, and personal growth happened.</p>
+    <main class="visual-page places-page">
+      <section class="visual-hero-section">
+        <div class="visual-hero-card places-visual-hero">
+          <img class="visual-hero-image" id="places-hero-image" alt="" hidden />
+          <div class="visual-hero-overlay" aria-hidden="true"></div>
+          <div class="visual-hero-copy">
+            <p class="visual-eyebrow">Working Footprint</p>
+            <h1 data-bind="placesPage.heroTitle"></h1>
+            <p data-bind="placesPage.heroSubtitle"></p>
+          </div>
+        </div>
       </section>
-      <section class="section">
-        <div class="places-grid" id="places-grid"></div>
+
+      <section class="visual-intro">
+        <p>
+          <span data-bind="placesPage.introLead"></span>
+          <span class="visual-intro-muted" data-bind="placesPage.introBody"></span>
+        </p>
+      </section>
+
+      <section class="visual-feature-grid places-grid" id="places-grid" aria-label="Working footprint"></section>
+
+      <section class="footprint-gallery" aria-labelledby="footprint-gallery-title">
+        <div class="footprint-gallery-heading">
+          <p class="visual-eyebrow" data-bind="placesPage.galleryEyebrow"></p>
+          <h2 id="footprint-gallery-title" data-bind="placesPage.galleryTitle"></h2>
+          <p data-bind="placesPage.galleryBody"></p>
+        </div>
+        <div class="footprint-photo-grid" id="footprint-photo-grid"></div>
+      </section>
+
+      <section class="places-journey">
+        <h2 data-bind="placesPage.journeyTitle"></h2>
+        <p data-bind="placesPage.journeyBody"></p>
+        <div class="places-route" id="places-route" aria-label="Professional journey route"></div>
+      </section>
+
+      <section class="visual-finale places-finale">
+        <div>
+          <p class="visual-finale-kicker">Next chapter</p>
+          <h2 data-bind="placesPage.finaleTitle"></h2>
+          <div class="places-finale-visual" aria-hidden="true"></div>
+        </div>
       </section>
     </main>
 
     <footer class="site-footer">
-      <span>Bean Dong Personal Website</span>
-      <span>Personal archive, kept concise.</span>
+      <span>Bean Dong</span>
+      <span>A professional journey across cities and project phases.</span>
     </footer>
 
-    <script src="script.js"></script>
+    <script src="script.js?v=20260611-2"></script>
   </body>
 </html>
